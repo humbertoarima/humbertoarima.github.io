@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Histórico</title>
+</head>
+<body>
+    <button onclick="goBack()">Voltar</button>     <!-- adição de um botão-->
+    <script>
+    function goBack() {window.history.back();}
+    </script>
+    <h1>
+        Histórico Educacional
+        
+    </h1>
+    
+    <table>
+            <tr>
+              <th>Curso</th>
+              <th>Instituição</th>
+              <th>Período</th>
+            </tr>
+            <tr>
+
+                   
+              <td style="color:black;">Engenharia Química</td>
+              <td style="color:black;">Universidade Federal do Rio Grande do Norte</td>
+              <td style="color:black;">2009-2015</td>
+            </tr>
+            <tr>
+              <td>Beng Chemical Engineering</td>
+              <td>Newcastle University (RU)</td>
+              <td>2013-2014</td>
+            </tr>
+            <tr>
+                <td style="color:black;">Mestrado em Engenharia Química</td>
+                <td style="color:black;">Universidade Federal do Rio de Janeiro/COPPE</td>
+                <td style="color:black;">2015-2017</td>
+            </tr>
+            <tr>
+              <td>Bacharelado em Ciências e Tecnologia</td>
+              <td>Universidade Federal do Rio Grande do Norte</td>
+              <td>2018-Atualmente </td>
+            </tr>
+          </table>
+    
+<style>
+body 
+        {
+          background-color:black;
+          background-image:  url("images/downloaded.jpg");
+          background-size: cover;
+          color: white;
+        }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+</style>
+</body>
+</html>
